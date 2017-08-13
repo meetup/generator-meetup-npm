@@ -1,4 +1,4 @@
-# generator-meetup-npm [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-meetup-npm [![npm version](https://badge.fury.io/js/%40meetup%2Fgenerator-meetup-npm.svg)](https://badge.fury.io/js/%40meetup%2Fgenerator-meetup-npm.svg) [![Build Status](https://travis-ci.org/meetup/generator-meetup-npm.svg?branch=master)](https://travis-ci.org/meetup/generator-meetup-npm)
 > Yeoman generator for npm packages
 
 ## Installation
@@ -7,7 +7,7 @@ First, install [Yeoman](http://yeoman.io) and generator-meetup-npm using [npm](h
 
 ```bash
 npm install -g yo
-npm install -g generator-meetup-npm
+npm install -g @meetup/generator-meetup-npm
 ```
 
 Then generate your new project:
@@ -16,12 +16,11 @@ Then generate your new project:
 yo meetup-npm
 ```
 
-## Getting To Know Yeoman
+## This script has some rough edges
 
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
+ * It will fail if there's existing `github_deploy_key` `github_deploy_key.pub` `.travis` files / directorties
+ * It will copy the deployment keys for you. You need to add them to the github repo settings go to https://github.com/(your_repo)/settings/keys and make sure "Allow write access" is checked
+ * You need to `.gitignore` `github_deploy_key` or you will deploy it with your npm module, making it public.
 
 ## License
 
