@@ -1,6 +1,6 @@
 {
   "name": "@meetup/generator-meetup-npm",
-  "version": "0.0.0",
+  "version": "0.0.9",
   "description": "Yeoman generator for npm packages",
   "homepage": "https://github.com/meetup/generator-meetup-npm",
   "author": {
@@ -41,7 +41,7 @@
     "prepublish": "nsp check",
     "pretest": "eslint . --fix",
     "test": "jest",
-    "build":"echo 'no build'"
+    "build": "echo 'no build'"
   },
   "eslintConfig": {
     "extends": "xo-space",
