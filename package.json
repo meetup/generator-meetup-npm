@@ -41,7 +41,7 @@
   "scripts": {
     "prepublish": "nsp check",
     "pretest": "eslint . --fix",
-    "test": "jest",
+    "test": "echo 'no tests'",
     "build": "echo 'no build'"
   },
   "eslintConfig": {
