@@ -8,7 +8,7 @@ First, install [Yeoman](http://yeoman.io) and generator-meetup-npm using [npm](h
 
 ```bash
 npm install -g yo
-npm install -g generator-meetup-npm
+npm install -g @meetup/generator-meetup-npm
 ```
 
 Then generate your new project:
