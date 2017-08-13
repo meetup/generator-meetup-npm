@@ -11,6 +11,11 @@ const exec$ = command => {
     .do(output => console.log(output[0].slice(0, -1)));
 };
 
+const updateNotifier = require('update-notifier');
+const pkg = require('./package.json');
+
+updateNotifier({pkg}).notify();
+
 /*
 Const spawn$ = (command, args) => Rx.Observable.bindNodeCallback(spawn)(
   command,

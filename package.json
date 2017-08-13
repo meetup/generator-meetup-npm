@@ -31,6 +31,7 @@
     "@alrra/travis-scripts": "^3.0.1",
     "chalk": "^2.1.0",
     "rxjs": "^5.4.2",
+    "update-notifier": "^2.2.0",
     "yeoman-generator": "^1.0.0",
     "yosay": "^2.0.0"
   },
@@ -41,7 +42,7 @@
     "prepublish": "nsp check",
     "pretest": "eslint . --fix",
     "test": "jest",
-    "build":"echo 'no build'"
+    "build": "echo 'no build'"
   },
   "eslintConfig": {
     "extends": "xo-space",
