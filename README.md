@@ -1,5 +1,4 @@
-# generator-meetup-npm [![npm version](https://badge.fury.io/js/%40meetup%2Fgenerator-meetup-npm.svg)](https://badge.fury.io/js/%40meetup%2Fgenerator-meetup-npm.svg)
-[![Build Status](https://travis-ci.org/meetup/generator-meetup-npm.svg?branch=master)](https://travis-ci.org/meetup/generator-meetup-npm)
+# generator-meetup-npm [![npm version](https://badge.fury.io/js/%40meetup%2Fgenerator-meetup-npm.svg)](https://badge.fury.io/js/%40meetup%2Fgenerator-meetup-npm.svg)[![Build Status](https://travis-ci.org/meetup/generator-meetup-npm.svg?branch=master)](https://travis-ci.org/meetup/generator-meetup-npm)
 > Yeoman generator for npm packages
 
 ## Installation
