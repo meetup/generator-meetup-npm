@@ -31,7 +31,7 @@ module.exports = class extends Generator {
     const done = this.async();
     bold('verifying travis CLI');
     exec$('which travis')
-      .do(() => console.log('travis CLI verified\n'), () => console.log('pleae gem install travis'))
+      .do(() => console.log('travis CLI verified\n'), () => console.log('pleae gem install travis && travis login'))
       .do(() => bold('verifying travis login'))
       .flatMap(() => exec$('travis whoami'))
       .do(() => console.log('travis login verified\n'), () => console.log('please `travis login`'))
@@ -54,6 +54,7 @@ module.exports = class extends Generator {
 
   prompting() {
     // Have Yeoman greet the user.
+    /*
     this.log(yosay(
       'Welcome to the mind-blowing ' + chalk.red('generator-meetup-npm') + ' generator!'
     ));
@@ -69,6 +70,7 @@ module.exports = class extends Generator {
       // To access props later use this.props.someAnswer;
       this.props = props;
     });
+    */
   }
 
   writing() {
