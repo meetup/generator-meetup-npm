@@ -1,7 +1,7 @@
 'use strict';
 const Generator = require('yeoman-generator');
 const chalk = require('chalk');
-const yosay = require('yosay');
+// Const yosay = require('yosay');
 
 const Rx = require('rxjs');
 const {exec} = require('child_process');
