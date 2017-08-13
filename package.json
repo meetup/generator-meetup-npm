@@ -1,6 +1,6 @@
 {
   "name": "@meetup/generator-meetup-npm",
-  "version": "0.0.0",
+  "version": "0.0.12",
   "description": "Yeoman generator for npm packages",
   "homepage": "https://github.com/meetup/generator-meetup-npm",
   "author": {
