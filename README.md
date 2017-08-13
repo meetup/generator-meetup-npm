@@ -19,7 +19,7 @@ yo meetup-npm
 ## This script has some rough edges
 
  * It will fail if there's existing `github_deploy_key` `github_deploy_key.pub` `.travis` files / directorties
- * It will copy the deployment keys for you. You need to add them to the github repo settings as described [here](https://github.com/alrra/travis-scripts/blob/master/doc/github-deploy-keys.md)
+ * It will copy the deployment keys for you. You need to add them to the github repo settings go to https://github.com/(your repo)/settings/keys 
  * You need to `.gitignore` `github_deploy_key` or you will deploy it with your npm module, making it public.
 
 ## License
